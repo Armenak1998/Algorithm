@@ -1,6 +1,6 @@
 #include"private.h"
 
-int* ALG::creat (int* arr, int key, int size, int index)
+int* ALG::create (int* arr, int key, int size, int index)
 {
     int j = 0;
     int * ptr =new int[size + 1];

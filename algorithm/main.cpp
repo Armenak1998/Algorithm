@@ -20,7 +20,7 @@ int main()
         }
         std::cout<<std::endl;
         for(int j = 0; j < (2*k); j++) {
-            int * ptr = ALG::sort(arr, j, k);
+            int * ptr = ALG::insert(arr, j, k);
             std::cout<<j<<" seria "<<std::endl;
             for(int i = 0; i < (k+1); i++)
                 std::cout << ptr[i] << " ";
